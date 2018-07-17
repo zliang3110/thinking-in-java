@@ -38,7 +38,6 @@ public class Generators {
     public static void main(String[] args) {
         String clazz = Generators.fill(new ArrayList<Integer>(), new Fibonacci(),10).getClass().getSimpleName();
         System.out.println(clazz);
-
     }
 
 }
